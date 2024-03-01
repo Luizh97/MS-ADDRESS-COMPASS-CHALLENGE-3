@@ -17,6 +17,7 @@ public class EnderecoController {
         System.out.println("Buscando CEP: " + cep);
         System.out.println("Buscando usuário: " + id);
         Endereco endereco = viaCepClient.buscarEndereco(cep);
+        enderecoService.validarEndereco(endereco);
         endereco.setIdUsuario(id);
 
         enderecoService.salvarEndereco(endereco);

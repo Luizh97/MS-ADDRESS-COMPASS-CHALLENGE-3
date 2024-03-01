@@ -16,4 +16,10 @@ public class EnderecoService {
          enderecoRepository.save(endereco);
 
     }
+
+    public void validarEndereco(Endereco endereco) {
+        if (endereco == null) {
+            throw new RuntimeException("Endereço não encontrado");
+        }
+    }
 }
