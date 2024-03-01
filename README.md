@@ -1,7 +1,5 @@
 # Microservice Endereço
  
-Bem-vindo à API de E-commerce, uma solução robusta desenvolvida em Spring Boot para gerenciar informações de produtos e pedidos. Esta API oferece endpoints para realizar operações como adição, recuperação, atualização e exclusão de produtos e pedidos.
-
 # Descrição
 
 O microserviço recebe um id e um cep atrvés de outro microserviço, faz as validações do endereço e salva no banco de dados.
