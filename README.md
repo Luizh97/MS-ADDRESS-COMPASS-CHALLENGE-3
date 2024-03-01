@@ -25,7 +25,7 @@ git clone https://github.com/Luizh97/MS-ADDRESS-COMPASS-CHALLENGE-3.git
 3. Aplicação pronta para ser executada
  
  
-Documentação: localhost:8080/docs-msuser.html
+Documentação: localhost:8080/docs-msaddress.html
  
 ## Endpoints disponíveis no microserviço
  
